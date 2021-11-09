@@ -2,11 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Profile from './pages/profile';
+import Product from './pages/product';
+import Social from './pages/social';
 import reportWebVitals from './reportWebVitals';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch>
+        <Route exact path='/'>
+          <Profile />
+        </Route>
+        <Route exact path='/product'>
+          <Product />
+        </Route>
+        <Route exact path='/social'>
+          <Social />
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
