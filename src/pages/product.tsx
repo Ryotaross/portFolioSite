@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
+import Head from '../components/head';
 
 function Product() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <main className="App-contents">
+          <Head />
+          <img src={logo} className="App-logo" alt="logo" />
         <p>
           product
         </p>
@@ -18,6 +21,7 @@ function Product() {
         >
           Learn React
         </a>
+        </main>
       </header>
     </div>
   );

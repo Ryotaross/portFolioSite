@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
+import Head from '../components/head';
 
 function Profile() {
   return (
     <div className="App">
       <header className="App-header">
+        <main className="App-contents">
+          <Head />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           profile
@@ -18,6 +21,7 @@ function Profile() {
         >
           Learn React
         </a>
+        </main>
       </header>
     </div>
   );

@@ -26,8 +26,9 @@ function Menu() {
     padding: 10px;
     border-radius: 4px;
     background: #fff;
-    border: 1pxsolid transparent;
+    border: 1px solid transparent;
     transition: .5s;
+    font-size:1.2em;
     &:hover {
       cursor: pointer;
       background: #b3424a;

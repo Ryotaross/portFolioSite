@@ -41,7 +41,7 @@ function Logo() {
   */
 
   const Name = styled.h1 `
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0.5em 0;
   `;
 
