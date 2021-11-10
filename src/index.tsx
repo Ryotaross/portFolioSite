@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Profile from './pages/profile';
 import Product from './pages/product';
 import Social from './pages/social';
