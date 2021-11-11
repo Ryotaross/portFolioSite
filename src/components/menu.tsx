@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import '../App.css';
 import { FaRegGrinTongueWink } from "react-icons/fa";
 import { FaGift } from "react-icons/fa";
 import { ImPointRight} from "react-icons/im";
@@ -49,7 +50,7 @@ function Menu() {
   `;
 
   return (
-    <Menubar>
+    <Menubar className="Menu">
         <Item><Button href="/"><Icon><FaRegGrinTongueWink /></Icon>Profile</Button></Item>
         <Item><Button href="/history"><Icon><GiSecretBook /></Icon>History</Button></Item>
         <Item><Button href="/product"><Icon><FaGift /></Icon>Product</Button></Item>

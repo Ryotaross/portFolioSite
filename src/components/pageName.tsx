@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import styled from 'styled-components';
 
 function PageName(props : any) {
@@ -19,7 +20,7 @@ function PageName(props : any) {
 
   return (
     <Flex>
-      <Name>{props.name}</Name>
+      <Name className="English">{props.name}</Name>
       <SubName>{props.subname}</SubName>
     </Flex>
   );

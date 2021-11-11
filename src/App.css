@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Work+Sans:ital,wght@1,300&display=swap');
 .App {
   text-align: center;
 }
@@ -25,10 +28,18 @@
 .App-contents {
   width:800px;
   padding-top:3em;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.English {
+  font-family: 'Architects Daughter', cursive;
+}
+.Menu{
+  font-family: 'Work Sans', sans-serif;
 }
 
 @keyframes App-logo-spin {

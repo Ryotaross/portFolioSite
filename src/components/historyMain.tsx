@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import { Main } from './contents';
 import { MainName } from './contents';
 import { MainText } from './contents';

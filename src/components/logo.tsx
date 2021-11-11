@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../me.jpg';
 import styled from 'styled-components';
+import '../App.css';
 
 function Logo() {
   const Header = styled.div `
@@ -48,7 +49,7 @@ function Logo() {
   return (
     <Header>
       <Image src={logo} alt="logo" />
-      <Name>Ryotaro Shimizu</Name>
+      <Name className="English">Ryotaro Shimizu</Name>
     </Header>
   );
 }
