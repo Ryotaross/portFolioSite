@@ -3,19 +3,20 @@ import logo from '../logo.svg';
 import '../App.css';
 import Head from '../components/head';
 import PageName from '../components/pageName';
-import ProductMain from '../components/productMain';
+import HistoryMain from '../components/historyMain';
 
-function Product() {
+function History() {
   return (
     <div className="App">
       <header className="App-header">
         <main className="App-contents">
           <Head />
-          <PageName name="Product" subname="これまでに個人開発を行ったプロダクトです。" />
-          <ProductMain />
-          <img src={logo} className="App-logo" alt="logo" />
+          <PageName name="History" subname="これまでやってきたことをまとめております" />
+          <HistoryMain />
+
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          product
+          social
         </p>
         <a
           className="App-link"
@@ -31,4 +32,4 @@ function Product() {
   );
 }
 
-export default Product;
+export default History;

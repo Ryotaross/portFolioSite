@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 import Head from '../components/head';
+import PageName from '../components/pageName';
+import SocialMain from '../components/socialMain';
 
 function Social() {
   return (
@@ -9,6 +11,9 @@ function Social() {
       <header className="App-header">
         <main className="App-contents">
           <Head />
+          <PageName name="Social" subname="SNSアカウントです。御覧いただけると幸いです。" />
+          <SocialMain />
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           social

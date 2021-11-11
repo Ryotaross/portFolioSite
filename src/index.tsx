@@ -4,6 +4,7 @@ import './index.css';
 import Profile from './pages/profile';
 import Product from './pages/product';
 import Social from './pages/social';
+import History from './pages/history';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter as Router,
@@ -23,6 +24,9 @@ ReactDOM.render(
         </Route>
         <Route exact path='/social'>
           <Social />
+        </Route>
+        <Route exact path='/history'>
+          <History />
         </Route>
       </Switch>
     </Router>

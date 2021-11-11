@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 import Head from '../components/head';
+import PageName from '../components/pageName';
+import ProfileMain from '../components/profileMain';
 
 function Profile() {
   return (
@@ -9,6 +11,8 @@ function Profile() {
       <header className="App-header">
         <main className="App-contents">
           <Head />
+          <PageName name="Profile" subname="Webエンジニアを目指して転職活動中です。" />
+          <ProfileMain />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           profile
