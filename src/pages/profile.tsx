@@ -13,18 +13,6 @@ function Profile() {
           <Head />
           <PageName name="Profile" subname="Webエンジニアを目指して転職活動中です。" />
           <ProfileMain />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          profile
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         </main>
       </header>
     </div>

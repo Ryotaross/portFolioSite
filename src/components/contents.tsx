@@ -23,6 +23,11 @@ export const Flex = styled.div `
 
 export const Month = styled.h4 `
   display: block;
-  margin: 0 2.5em 0 1.25em;
+  width:5em;
+  margin: 0 2.5em 1.25em 0;
+  line-height: 1.625;
+`;
+
+export const List = styled.li `
   line-height: 1.625;
 `;
