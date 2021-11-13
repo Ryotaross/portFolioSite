@@ -13,19 +13,6 @@ function History() {
           <Head />
           <PageName name="History" subname="これまでやってきたことをまとめております" />
           <HistoryMain />
-
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          social
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         </main>
       </header>
     </div>

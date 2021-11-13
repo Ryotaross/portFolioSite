@@ -19,28 +19,6 @@ function Logo() {
     }
   `;
 
-  /*
-  const First = styled.h1 `
-    position:relative;
-    left:-1em;
-    font-size: 1.5em;
-    margin: 0.1em 0 0 0;
-    transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-  `;
-
-  const Last = styled.h1 `
-    position:relative;
-    left:1em;
-    font-size: 1.5em;
-    margin: 0 0 .3em 0;
-    transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-  `;
-  */
-
   const Name = styled.h1 `
     font-size: 2em;
     margin: 0.5em 0;

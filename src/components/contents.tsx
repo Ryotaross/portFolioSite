@@ -19,6 +19,8 @@ export const MainText = styled.p `
 
 export const Flex = styled.div `
   display: flex;
+  border-bottom: 2px dashed grey;
+  margin: 0 0 1.25em;
 `;
 
 export const Month = styled.h4 `
