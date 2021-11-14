@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../App.css';
 import Head from '../components/head';
 import PageName from '../components/pageName';

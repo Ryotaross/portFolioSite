@@ -55,7 +55,7 @@ function Menu() {
         <Item><Button href="/history"><Icon><GiSecretBook /></Icon>History</Button></Item>
         <Item><Button href="/product"><Icon><FaGift /></Icon>Product</Button></Item>
         <Item><Button href="/social"><Icon><ImPointRight /></Icon>Social</Button></Item>
-        <Item><Button href="#"><Icon><SiMinutemailer /></Icon>Contact</Button></Item>
+        <Item><Button href="https://docs.google.com/forms/d/e/1FAIpQLScTDoqwl3r-kYAA-AnB2_tTOtdBh2X58ypQ5XXQv-kXmXkSlA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><Icon><SiMinutemailer /></Icon>Contact</Button></Item>
     </Menubar>
     
   );

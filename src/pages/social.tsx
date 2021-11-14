@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../App.css';
 import Head from '../components/head';
 import PageName from '../components/pageName';
@@ -13,19 +12,6 @@ function Social() {
           <Head />
           <PageName name="Social" subname="SNSアカウントです。御覧いただけると幸いです。" />
           <SocialMain />
-
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          social
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         </main>
       </header>
     </div>

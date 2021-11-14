@@ -51,3 +51,11 @@ export const Item = styled.div `
   border-bottom: 2px dashed grey;
   margin: 0 0 1.25em;
 `;
+
+export const SocialName = styled.span `
+  margin-left:.5em;
+`;
+
+export const SocialLink = styled.a `
+  text-decoration:none;
+`;

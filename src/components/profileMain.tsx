@@ -11,7 +11,7 @@ function ProfileMain() {
       <MainName className="English">About me</MainName>
       <MainText>こんにちは。サイトに来ていただいてありがとうございます。</MainText>
       <MainText>
-        自己紹介します。名前は、清水凌太郎。福岡県出身の1996年生の25歳。蟹座。AB型。身長は169cm。
+        自己紹介します。名前は、清水凌太郎。福岡県出身の1996年生の25歳。蟹座。AB型。身長は169cm。体重59kg。趣味は野球観戦、ゴルフ、サウナ、プレミアリーグ。
       </MainText>
       <MainText>
         １８歳まで福岡で過ごし、大学進学で大阪に、その後就職し東京、現在は転勤で大阪在住です。<br />
