@@ -33,3 +33,21 @@ export const Month = styled.h4 `
 export const List = styled.li `
   line-height: 1.625;
 `;
+
+export const ProductImage = styled.img `
+  width:100%;
+  object-fit: cover;
+  &:hover {
+    opacity:0.5;
+	  cursor: pointer;
+  }
+  &:active {
+    position: relative;
+	  top: 3px;
+  }
+  `;
+
+export const Item = styled.div `
+  border-bottom: 2px dashed grey;
+  margin: 0 0 1.25em;
+`;

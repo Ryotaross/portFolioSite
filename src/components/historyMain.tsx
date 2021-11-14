@@ -86,7 +86,7 @@ function HistoryMain() {
               <a href="https://codecamp.jp/gate?ccadid=gssep_401_gate&utm_source=google&utm_medium=cpc&utm_campaign=401&utm_term=code%20camp%20gate_e&utm_content=537629650469&gclid=EAIaIQobChMIjpn83OSU9AIVz6uWCh0Y2QphEAAYASAAEgK2r_D_BwE" target="_blank" rel="noopener noreferrer">
                 CodeCampGATE
               </a>
-              で学習を続けました。
+              で学習をはじめました。
             </MainText>
             <MainText>
               前半はHTML/CSS, JavaScript, PHP, MySQLの作法の学習。<br />
@@ -94,7 +94,6 @@ function HistoryMain() {
             </MainText>
             <MainText>
               後半はLocal開発環境構築やGitの使い方、Laravelの学習を行いました。<br />
-              この期間で工事監理アプリを制作しました。<br />
               4ヶ月みっちり学習をすることができました。<br />
               <a href="https://drive.google.com/file/d/1azICZchqZtdrgaZD0ajSobejFg8ZoJY9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 CodeCamp推薦状
@@ -147,9 +146,8 @@ function HistoryMain() {
         </div>
       </Flex>
       <MainName className="English">Next Action!</MainName>
-      <MainText>今後は次のようにやっていきます</MainText>
       <ul>
-        <List>エンジニア転職をして実務の中で更にできることを増やす。</List>
+        <List>エンジニア転職をして、実務の中で更にできることを増やす。</List>
         <List>ゴルフ関係の２サイトを運用してみる。</List>
         <List>Qiitaへの投稿を怠らない。</List>
         <List>

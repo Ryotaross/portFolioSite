@@ -13,18 +13,6 @@ function Product() {
           <Head />
           <PageName name="Product" subname="これまでに個人開発を行ったプロダクトです。" />
           <ProductMain />
-          <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          product
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         </main>
       </header>
     </div>
